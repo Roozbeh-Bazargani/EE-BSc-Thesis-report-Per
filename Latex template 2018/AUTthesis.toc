@@ -30,15 +30,18 @@
 \contentsline {section}{\numberline {3-4}شبیه‌سازی و نتایج}{32}{section.3.4}%
 \contentsline {chapter}{\numberline {4}مسیریابی}{33}{chapter.4}%
 \contentsline {section}{\numberline {4-1}مقدمه}{34}{section.4.1}%
-\contentsline {section}{\numberline {4-2}الگوریتم‌های ابتکاری}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4-2-1}الگوریتم $BFS$}{35}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4-2-2}الگوریتم $search$ $best-first$ $Greedy$}{37}{subsection.4.2.2}%
-\contentsline {subsection}{\numberline {4-2-3}الگوریتم $A^*$}{38}{subsection.4.2.3}%
-\contentsline {subsection}{\numberline {4-2-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{39}{subsection.4.2.4}%
-\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{44}{chapter.5}%
-\contentsline {section}{\numberline {5-1}پیشنهادات}{45}{section.5.1}%
-\contentsline {chapter}{منابع و مراجع}{46}{appendix*.6}%
-\contentsline {chapter}{پیوست}{47}{appendix*.7}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{48}{appendix*.9}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{50}{appendix*.10}%
+\contentsline {section}{\numberline {4-2}میدان پتانسیل}{34}{section.4.2}%
+\contentsline {subsection}{\numberline {4-2-1}روابط میدان پتانسیل}{34}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{35}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{36}{section.4.3}%
+\contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{36}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{38}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{39}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{40}{subsection.4.3.4}%
+\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{46}{chapter.5}%
+\contentsline {section}{\numberline {5-1}پیشنهادات}{47}{section.5.1}%
+\contentsline {chapter}{منابع و مراجع}{48}{appendix*.6}%
+\contentsline {chapter}{پیوست}{49}{appendix*.7}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{50}{appendix*.9}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{52}{appendix*.10}%
 \contentsfinish 
