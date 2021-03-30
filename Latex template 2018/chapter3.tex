@@ -527,7 +527,58 @@ k_{jx} |e_{jx}| = |e_{j(x-1)}| + \sum_{t \ne j(x-1) \in T_{jx}}^{}|e_{t}|,~~ |T_
 	\end{bmatrix}
 \end{equation}
 
+تنها نکته مهم این است که برای کاهش تاخیر ایجاد شده در کنترل‌کننده‌ها و خود کنترل‌کننده پلتون، از رهبر مجازی استفاده شده است.
+
 \section{شبیه‌سازی و نتایج}
+در این قسمت، ابتدا شبیه‌سازی اجماع به صورت عددی و سپس همراه با ربات‌ها انجام خواهد شد.
+
+\subsection{شبیه‌سازی اجماع عددی}
+بلوک‌های شبیه‌سازی شده به شکل \ref{Fig numeric-platoon} هستند.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.3]{Images/numeric-platoon.png}
+	\caption{بلوک‌های شبیه‌سازی شده برای اجماع عددی} \label{Fig numeric-platoon}
+\end{figure}
+
+همچنین موقعیت عامل‌ها با اعمال نویز به همراه عامل رهبر در حال جابه‌جایی، در شکل \ref{Fig numeric-platoon pos} آمده است.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.12]{Images/numeric-platoon pos.jpg}
+	\caption{موقعیت مکان‌های شبیه‌سازی شده} \label{Fig numeric-platoon pos}
+\end{figure}
+
+\subsection{شبیه‌سازی با ربات‌ها}
+در این قسمت دو شبیه‌سازی، اول با رهبر واقعی که یکی از ربات‌ها است و در شبیه‌سازی دوم با رهبر مجازی، برای کم کردن تاخیر، خواهیم دید.
+
+شبیه‌سازی اجماع با رهبر واقعی در شکل \ref{Fig platoon-simulink} آمده است.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.2]{Images/platoon-simulink.png}
+	\caption{بلوک‌های شبیه‌سازی شده برای اجماع ربات‌ها با رهبر واقعی} \label{Fig platoon-simulink}
+\end{figure}
+
+در شکل \ref{Fig platoon-pos} مکان ربات‌ها در صفحه آمده است. همانطور که مشاهده می‌شود، ربات رهبر در حدود ثانیه 10 به موقعیت مطلوب رسیده است، در حالی که بقیه ربات‌ها در حدود 12 ثانیه به نقطه هدف خود رسیده‌اند.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.12]{Images/platoon-pos.jpg}
+	\caption{موقعیت مکان‌های ربات‌ها برای اجماع با رهبر واقعی} \label{Fig platoon-pos}
+\end{figure}
+
+حال به دلیل تاخیرهایی که در انتگرال‌گیرها، خود ربات و محاسبات مختصات اجماع به وجود می‌آید، از ربات مجازی استفاده شد تا همه ربات‌ها همزمان دستور گیرند. شبیه‌سازی در شکل \ref{Fig platoon-virtual-simulink} آمده است.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.25]{Images/platoon-virtual-simulink.png}
+	\caption{بلوک‌های شبیه‌سازی شده برای اجماع ربات‌ها با رهبر مجازی} \label{Fig platoon-virtual-simulink}
+\end{figure}
+
+مکان ربات‌ها در شکل \ref{Fig platoon-virtual-pos} هستند. همانطور که دیده می‌شود، تاخیر بسیار کم شده است. لذا در ادامه از رهبر مجازی استفاده شده است.
+\begin{figure}[!h] 
+	\centering
+	\includegraphics[scale=0.12]{Images/platoon-virtual-pos.jpg}
+	\caption{موقعیت مکان‌های ربات‌ها برای اجماع با رهبر مجازی} \label{Fig platoon-virtual-pos}
+\end{figure}
+
+
 
 
 
