@@ -16,32 +16,33 @@
 \contentsline {section}{\numberline {2-3}کنترل کننده موقعیت تک ربات}{12}{section.2.3}%
 \contentsline {subsection}{\numberline {2-3-1}کنترل سرعت زاویه‌ای ربات}{13}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2-3-2}کنترل سرعت خطی ربات}{14}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2-3-3}کنترل کننده خاموش روشن}{15}{subsection.2.3.3}%
 \contentsline {section}{\numberline {2-4}نتایج کنترل موقعیت یک ربات}{15}{section.2.4}%
-\contentsline {chapter}{\numberline {3}کنترل اجماع ربات‌‌ها}{16}{chapter.3}%
-\contentsline {section}{\numberline {3-1}مقدمه}{17}{section.3.1}%
-\contentsline {section}{\numberline {3-2}گراف اجماع}{17}{section.3.2}%
-\contentsline {subsection}{\numberline {3-2-1}عدد همبندی یالی}{18}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3-2-2}کمینه‌ترین گراف اجماع}{19}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3-2-3}تشکیل گراف اجماع}{21}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3-3}الگوریتم اجماع}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3-3-1}خواص ماتریس لاپلاسین}{23}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3-3-2}پایداری کنترل اجماع}{25}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3-3-3}روش شکل‌دهی}{31}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3-4}شبیه‌سازی و نتایج}{32}{section.3.4}%
-\contentsline {chapter}{\numberline {4}مسیریابی}{33}{chapter.4}%
-\contentsline {section}{\numberline {4-1}مقدمه}{34}{section.4.1}%
-\contentsline {section}{\numberline {4-2}میدان پتانسیل}{34}{section.4.2}%
-\contentsline {subsection}{\numberline {4-2-1}روابط میدان پتانسیل}{34}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{35}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{36}{section.4.3}%
-\contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{36}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{38}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{39}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{40}{subsection.4.3.4}%
-\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{46}{chapter.5}%
-\contentsline {section}{\numberline {5-1}پیشنهادات}{47}{section.5.1}%
-\contentsline {chapter}{منابع و مراجع}{48}{appendix*.6}%
-\contentsline {chapter}{پیوست}{49}{appendix*.7}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{50}{appendix*.9}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{52}{appendix*.10}%
+\contentsline {chapter}{\numberline {3}کنترل اجماع ربات‌‌ها}{18}{chapter.3}%
+\contentsline {section}{\numberline {3-1}مقدمه}{19}{section.3.1}%
+\contentsline {section}{\numberline {3-2}گراف اجماع}{19}{section.3.2}%
+\contentsline {subsection}{\numberline {3-2-1}عدد همبندی یالی}{20}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3-2-2}کمینه‌ترین گراف اجماع}{21}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3-2-3}تشکیل گراف اجماع}{23}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3-3}الگوریتم اجماع}{23}{section.3.3}%
+\contentsline {subsection}{\numberline {3-3-1}خواص ماتریس لاپلاسین}{25}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3-3-2}پایداری کنترل اجماع}{27}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3-3-3}روش شکل‌دهی}{33}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3-4}شبیه‌سازی و نتایج}{34}{section.3.4}%
+\contentsline {chapter}{\numberline {4}مسیریابی}{35}{chapter.4}%
+\contentsline {section}{\numberline {4-1}مقدمه}{36}{section.4.1}%
+\contentsline {section}{\numberline {4-2}میدان پتانسیل}{36}{section.4.2}%
+\contentsline {subsection}{\numberline {4-2-1}روابط میدان پتانسیل}{36}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{37}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{38}{section.4.3}%
+\contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{38}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{40}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{41}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{42}{subsection.4.3.4}%
+\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{48}{chapter.5}%
+\contentsline {section}{\numberline {5-1}پیشنهادات}{49}{section.5.1}%
+\contentsline {chapter}{منابع و مراجع}{50}{appendix*.6}%
+\contentsline {chapter}{پیوست}{51}{appendix*.7}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{52}{appendix*.9}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{54}{appendix*.10}%
 \contentsfinish 
