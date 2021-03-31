@@ -1,7 +1,7 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
 \contentsline {chapter}{فهرست اشکال}{د}{section*.4}%
-\contentsline {chapter}{فهرست جداول}{ه}{section*.5}%
+\contentsline {chapter}{فهرست جداول}{و}{section*.5}%
 \par عنوان\hfill صفحه \par 
 \setcounter {tocdepth}{\SavedTocDepth }
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
@@ -35,16 +35,17 @@
 \contentsline {section}{\numberline {4-1}مقدمه}{39}{section.4.1}%
 \contentsline {section}{\numberline {4-2}میدان پتانسیل}{39}{section.4.2}%
 \contentsline {subsection}{\numberline {4-2-1}روابط میدان پتانسیل}{39}{subsection.4.2.1}%
-\contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{40}{subsection.4.2.2}%
-\contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{41}{section.4.3}%
-\contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{41}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{43}{subsection.4.3.2}%
-\contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{44}{subsection.4.3.3}%
-\contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{45}{subsection.4.3.4}%
-\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{51}{chapter.5}%
-\contentsline {section}{\numberline {5-1}پیشنهادات}{52}{section.5.1}%
-\contentsline {chapter}{منابع و مراجع}{53}{appendix*.6}%
-\contentsline {chapter}{پیوست}{54}{appendix*.7}%
-\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{55}{appendix*.9}%
-\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{57}{appendix*.10}%
+\contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{41}{subsection.4.2.2}%
+\contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{42}{section.4.3}%
+\contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{43}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{45}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{46}{subsection.4.3.3}%
+\contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{47}{subsection.4.3.4}%
+\contentsline {section}{\numberline {4-4}$Q-learning$}{51}{section.4.4}%
+\contentsline {chapter}{\numberline {5}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{52}{chapter.5}%
+\contentsline {section}{\numberline {5-1}پیشنهادات}{53}{section.5.1}%
+\contentsline {chapter}{منابع و مراجع}{54}{appendix*.6}%
+\contentsline {chapter}{پیوست}{55}{appendix*.7}%
+\contentsline {chapter}{واژه‌نامه‌ی فارسی به انگلیسی}{56}{appendix*.9}%
+\contentsline {chapter}{واژه‌نامه‌ی انگلیسی به فارسی}{58}{appendix*.10}%
 \contentsfinish 
