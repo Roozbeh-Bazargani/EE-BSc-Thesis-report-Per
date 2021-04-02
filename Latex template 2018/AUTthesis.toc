@@ -1,7 +1,7 @@
 \edef \SavedTocDepth {\the \value {tocdepth}}
 \setcounter {tocdepth}{-10}
-\contentsline {chapter}{فهرست اشکال}{ه}{section*.4}%
-\contentsline {chapter}{فهرست جداول}{ز}{section*.5}%
+\contentsline {chapter}{فهرست اشکال}{د}{section*.4}%
+\contentsline {chapter}{فهرست جداول}{و}{section*.5}%
 \contentsline {chapter}{\numberline {1}مقدمه}{1}{chapter.1}%
 \contentsline {section}{\numberline {1-1}مقدمه}{2}{section.1.1}%
 \contentsline {section}{\numberline {1-2}هدف و انگیزه}{2}{section.1.2}%
@@ -38,21 +38,24 @@
 \contentsline {subsection}{\numberline {4-2-2}کنترل مسیر ربات با میدان پتانسیل}{41}{subsection.4.2.2}%
 \contentsline {section}{\numberline {4-3}الگوریتم‌های ابتکاری}{42}{section.4.3}%
 \contentsline {subsection}{\numberline {4-3-1}الگوریتم $BFS$}{43}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4-3-2}الگوریتم $search$ $best-first$ $Greedy$}{45}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4-3-2}الگوریتم \lr {Greedy best-first search}}{45}{subsection.4.3.2}%
 \contentsline {subsection}{\numberline {4-3-3}الگوریتم $A^*$}{46}{subsection.4.3.3}%
 \contentsline {subsection}{\numberline {4-3-4}نتایج و مقایسه الگوریتم‌های ابتکاری}{47}{subsection.4.3.4}%
-\contentsline {section}{\numberline {4-4}$Q-learning$}{51}{section.4.4}%
-\contentsline {chapter}{\numberline {5}مسیریابی برای اجماع ربات‌ها}{52}{chapter.5}%
-\contentsline {section}{\numberline {5-1}مقدمه}{53}{section.5.1}%
-\contentsline {section}{\numberline {5-2}میدان پتانسیل}{53}{section.5.2}%
-\contentsline {subsection}{\numberline {5-2-1}جلوگیری از برخورد با موانع با شکل‌گیری ثابت}{53}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5-2-2}جلوگیری از برخورد با موانع با شکل‌گیری شکننده}{56}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5-3}روش‌های ابتکاری}{57}{section.5.3}%
-\contentsline {subsection}{\numberline {5-3-1}$BFS$}{57}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5-3-2}$Greedy\nobreakspace {}best-first\nobreakspace {}search$}{58}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5-3-3}$A^*$}{59}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5-4}$Q-learning$}{60}{section.5.4}%
-\contentsline {chapter}{\numberline {6}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{61}{chapter.6}%
-\contentsline {section}{\numberline {6-1}پیشنهادات}{62}{section.6.1}%
-\contentsline {chapter}{منابع و مراجع}{63}{appendix*.6}%
+\contentsline {section}{\numberline {4-4}\lr {Q-learning}}{51}{section.4.4}%
+\contentsline {subsection}{\numberline {4-4-1}الگوریتم \lr {Q-learning}}{52}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4-4-2}پیاده‌سازی الگوریتم \lr {Q-learning}}{53}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4-4-3}نتایج مسیریابی با \lr {Q-learning}}{53}{subsection.4.4.3}%
+\contentsline {chapter}{\numberline {5}مسیریابی برای اجماع ربات‌ها}{54}{chapter.5}%
+\contentsline {section}{\numberline {5-1}مقدمه}{55}{section.5.1}%
+\contentsline {section}{\numberline {5-2}میدان پتانسیل}{55}{section.5.2}%
+\contentsline {subsection}{\numberline {5-2-1}جلوگیری از برخورد با موانع با شکل‌گیری ثابت}{55}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5-2-2}جلوگیری از برخورد با موانع با شکل‌گیری شکننده}{58}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5-3}روش‌های ابتکاری}{59}{section.5.3}%
+\contentsline {subsection}{\numberline {5-3-1}\lr {BFS}}{59}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5-3-2}\lr {Greedy best-first search}}{60}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5-3-3}$A^*$}{61}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5-4}\lr {Q-learning}}{62}{section.5.4}%
+\contentsline {chapter}{\numberline {6}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{63}{chapter.6}%
+\contentsline {section}{\numberline {6-1}پیشنهادات}{64}{section.6.1}%
+\contentsline {chapter}{منابع و مراجع}{65}{appendix*.6}%
 \contentsfinish 

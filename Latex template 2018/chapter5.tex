@@ -59,33 +59,33 @@
 \section{روش‌های ابتکاری}
 در این قسمت روش‌های ابتکاری فصل \ref{ch path planning} پیاده‌سازی شده‌اند. این مسیریابی‌ها به صورت آنلاین انجام شده است تا از برخورد با موانع متحرک نیز بتوان اجتناب کرد. روش پیاده‌سازی به این صورت است که در عامل رهبر، این مسیریابی انجام و ربات طبق آن حرکت می‌نماید. سایر ربات‌ها همانند بخش \ref{sec potential-field for every robot} از میدان پتانسیل برای رسیدن به مکان مطلوب تعیین شده از طرف کنترل‌کننده پلتون و دوری از موانع به صورت انفرادی، استفاده می‌کنند.
 
-\subsection{$BFS$}
-نحوه پیاده‌سازی مسیریابی $BFS$ توسط اجماع ربات‌ها در شکل \ref{Fig platoon-BSF-simulink} و مسیر پیموده شده در شکل \ref{Fig platoon-BSF-pos} قابل مشاهده است.
+\subsection{\lr{BFS}}
+نحوه پیاده‌سازی مسیریابی \lr{BFS} توسط اجماع ربات‌ها در شکل \ref{Fig platoon-BSF-simulink} و مسیر پیموده شده در شکل \ref{Fig platoon-BSF-pos} قابل مشاهده است.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.22]{Images/platoon-BFS-simulink.png}
-	\caption{بلوک‌های شبیه‌سازی در روش $BFS$}\label{Fig platoon-BSF-simulink}
+	\caption{بلوک‌های شبیه‌سازی در روش \lr{BFS}}\label{Fig platoon-BSF-simulink}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.2]{Images/platoon-BFS-pos.jpg}
-	\caption{مکان ربات‌ها در روش $BFS$}\label{Fig platoon-BSF-pos}
+	\caption{مکان ربات‌ها در روش \lr{BFS}}\label{Fig platoon-BSF-pos}
 \end{figure}
 
 \newpage
-\subsection{$Greedy~best-first~search$}
-پیاده‌سازی روش $Greedy~best-first~search$ برای مسیریابی اجماع ربات‌ها همراه با نتیجه‌ آن، به ترتیب در شکل‌های \ref{Fig platoon-Greedy-simulink} و \ref{Fig platoon-Greedy-pos} آمده است.
+\subsection{\lr{Greedy best-first search}}
+پیاده‌سازی روش \lr{Greedy best-first search} برای مسیریابی اجماع ربات‌ها همراه با نتیجه‌ آن، به ترتیب در شکل‌های \ref{Fig platoon-Greedy-simulink} و \ref{Fig platoon-Greedy-pos} آمده است.
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.22]{Images/platoon-Greedy-simulink.png}
-	\caption{بلوک‌های شبیه‌سازی در روش $Greedy~best-first~search$}\label{Fig platoon-Greedy-simulink}
+	\caption{بلوک‌های شبیه‌سازی در روش \lr{Greedy best-first search}}\label{Fig platoon-Greedy-simulink}
 \end{figure}
 
 \begin{figure}[!h]
 	\centering
 	\includegraphics[scale=0.2]{Images/platoon-Greedy-pos.jpg}
-	\caption{مکان ربات‌ها در روش $Greedy~best-first~search$}\label{Fig platoon-Greedy-pos}
+	\caption{مکان ربات‌ها در روش \lr{Greedy best-first search}}\label{Fig platoon-Greedy-pos}
 \end{figure}
 
 
@@ -103,7 +103,7 @@
 	\caption{مکان ربات‌ها در روش $A^*$}\label{Fig platoon-A-star-pos}
 \end{figure}
 
-\section{$Q-learning$}
+\section{\lr{Q-learning}}
 
 
 
