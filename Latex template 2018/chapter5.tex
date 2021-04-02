@@ -104,17 +104,72 @@
 \end{figure}
 
 \section{\lr{Q-learning}}
+در این قسمت نتایج الگوریتم \lr{Q-learning} بررسی خواهد شد. قابل ذکر است که مقادیر یادگیری به شرح زیر هستند:
+\begin{itemize}
+	\item $\alpha$ = 0/9
+	\item $\gamma$ = 0/9
+	\item بیشترین تعداد گام‌ها = 100
+	\item حد بیشترین اختلاف در تابع \lr{V} = 0/0001
+	\item $R=-\|a\|_2$
+\end{itemize}
 
+بلوک‌های شبیه‌سازی همانند شکل \ref{Fig platoon-QL} بسته شده‌اند. همچنین مسیر پیموده شده توسط هر ربات در شکل \ref{Fig platoon-QL-pos} نشان داده شده است. در پیاده‌سازی آنلاین، مقادیر \lr{V} و \lr{Q} نگه‌داری می‌شوند و در هر دوره محاسباتی تنها به روزرسانی می‌گردند. لذا همانطور که مشخص است در یکی دو سیاست اولیه اخذ شده، هنوز به بهینگی نرسیده‌ایم اما پس از 2 انتخاب، سیاست‌ها بهینه هستند.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.25]{Images/platoon-QL.png}
+	\caption{بلوک‌های شبیه‌سازی در روش \lr{Q-learning}}\label{Fig platoon-QL}
+\end{figure}
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/platoon-QL-pos.jpg}
+	\caption{مکان ربات‌ها در روش \lr{Q-learning}}\label{Fig platoon-QL-pos}
+\end{figure}
 
+\newpage
+\section{مسیریابی در حضور موانع متحرک}
+در ادامه نتایج گرفته شده در برابر موانع متحرک برای الگوریتم‌های بالا به نمایش در آمده‌اند. قابل ذکر است که فیلم پاسخ‌های گرفته شده در \cite{roozbeh2020} موجود می‌باشد. روش مواجهه به موانع متحرک به این صورت بوده است که جابه‌جایی آن‌ها در یک بازه زمانی محاسبه گردد و سپس طبق جابه‌جایی انجام شده در لحظه قبل و داشتن موقعیت لحظه حال، موقعیت مانع متحرک در لحظه بعدی تقریب زده شود. این روش بسیار ساده است و قابل ارتقا و دقیق‌تر شدن می‌باشد.
+\begin{equation}
+	X_{n+1} = X_n + (X_n - X_{n-1}) = 2X_n - X_{n-1}
+\end{equation}
 
+شبیه‌سازی برای \lr{Q-learning} در عکس \ref{Fig dynamic-QL} نشان داده شده است.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.25]{Images/dynamic-QL.png}
+	\caption{بلوک‌های شبیه‌سازی در روش \lr{Q-learning} همراه با مانع متحرک}\label{Fig dynamic-QL}
+\end{figure}
 
+نتایج برای هر الگوریتم نیز در عکس‌های زیر نشان داده شده‌اند. مسیرهای سبز، قرمز و آبی توسط ربات‌های پلتون و مسیر مشکی رنگ توسط مانع متحرک که خود نیز یک ربات است پیموده شده‌اند.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/dynamic-QL.jpg}
+	\caption{مکان ربات‌ها در روش \lr{Q-learning} همراه با مانع متحرک}
+\end{figure}
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/dynamic-potential-field.jpg}
+	\caption{مکان ربات‌ها در روش میدان پتانسیل همراه با مانع متحرک}
+\end{figure}
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/dynamic-BFS.jpg}
+	\caption{مکان ربات‌ها در روش \lr{BFS} همراه با مانع متحرک}
+\end{figure}
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/dynamic-Greedy.jpg}
+	\caption{مکان ربات‌ها در روش \lr{Greedy best-first search} همراه با مانع متحرک}
+\end{figure}
 
-
-
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/dynamic-A-star.jpg}
+	\caption{مکان ربات‌ها در روش $A^*$ همراه با مانع متحرک}
+\end{figure}
 
 
 

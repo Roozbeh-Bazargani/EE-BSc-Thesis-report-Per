@@ -45,17 +45,19 @@
 \contentsline {subsection}{\numberline {4-4-1}الگوریتم \lr {Q-learning}}{52}{subsection.4.4.1}%
 \contentsline {subsection}{\numberline {4-4-2}پیاده‌سازی الگوریتم \lr {Q-learning}}{53}{subsection.4.4.2}%
 \contentsline {subsection}{\numberline {4-4-3}نتایج مسیریابی با \lr {Q-learning}}{53}{subsection.4.4.3}%
-\contentsline {chapter}{\numberline {5}مسیریابی برای اجماع ربات‌ها}{54}{chapter.5}%
-\contentsline {section}{\numberline {5-1}مقدمه}{55}{section.5.1}%
-\contentsline {section}{\numberline {5-2}میدان پتانسیل}{55}{section.5.2}%
-\contentsline {subsection}{\numberline {5-2-1}جلوگیری از برخورد با موانع با شکل‌گیری ثابت}{55}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5-2-2}جلوگیری از برخورد با موانع با شکل‌گیری شکننده}{58}{subsection.5.2.2}%
-\contentsline {section}{\numberline {5-3}روش‌های ابتکاری}{59}{section.5.3}%
-\contentsline {subsection}{\numberline {5-3-1}\lr {BFS}}{59}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5-3-2}\lr {Greedy best-first search}}{60}{subsection.5.3.2}%
-\contentsline {subsection}{\numberline {5-3-3}$A^*$}{61}{subsection.5.3.3}%
-\contentsline {section}{\numberline {5-4}\lr {Q-learning}}{62}{section.5.4}%
-\contentsline {chapter}{\numberline {6}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{63}{chapter.6}%
-\contentsline {section}{\numberline {6-1}پیشنهادات}{64}{section.6.1}%
-\contentsline {chapter}{منابع و مراجع}{65}{appendix*.6}%
+\contentsline {subsection}{\numberline {4-4-4}اشتباهات رایج در انتخاب پاداش}{56}{subsection.4.4.4}%
+\contentsline {chapter}{\numberline {5}مسیریابی برای اجماع ربات‌ها}{59}{chapter.5}%
+\contentsline {section}{\numberline {5-1}مقدمه}{60}{section.5.1}%
+\contentsline {section}{\numberline {5-2}میدان پتانسیل}{60}{section.5.2}%
+\contentsline {subsection}{\numberline {5-2-1}جلوگیری از برخورد با موانع با شکل‌گیری ثابت}{60}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5-2-2}جلوگیری از برخورد با موانع با شکل‌گیری شکننده}{63}{subsection.5.2.2}%
+\contentsline {section}{\numberline {5-3}روش‌های ابتکاری}{64}{section.5.3}%
+\contentsline {subsection}{\numberline {5-3-1}\lr {BFS}}{64}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5-3-2}\lr {Greedy best-first search}}{65}{subsection.5.3.2}%
+\contentsline {subsection}{\numberline {5-3-3}$A^*$}{66}{subsection.5.3.3}%
+\contentsline {section}{\numberline {5-4}\lr {Q-learning}}{67}{section.5.4}%
+\contentsline {section}{\numberline {5-5}مسیریابی در حضور موانع متحرک}{69}{section.5.5}%
+\contentsline {chapter}{\numberline {6}جمع‌بندي و نتيجه‌گيري و پیشنهادات}{73}{chapter.6}%
+\contentsline {section}{\numberline {6-1}پیشنهادات}{74}{section.6.1}%
+\contentsline {chapter}{منابع و مراجع}{75}{appendix*.6}%
 \contentsfinish 
