@@ -258,12 +258,57 @@ V_{n-1}(y) \equiv \max_{b}\{Q_{n-1}(y,~b)\}
 در نتیجه این مثال‌ها نشان‌دهنده اهمیت انتخاب صحیح تابع پاداش هستند.
 
 
+\subsection{حل مثال با الگوریتم \lr{Q-learning}}
+در این قسمت، قصد بر این است که مثالی با ابعاد کوچک با الگوریتم \lr{ًQ-learning} حل گردد و مقادیر یاد گرفته شده، تحلیل گردند. ابعاد نقشه 10 در 10 می‌باشد و مکان‌هایی که مانع حضور دارد با 1 در ماتریس \lr{loc} نمایش داده شده است. حالت شروع در موقعیت $[2~~2]^T$ و حالت هدف در موقعیت $[9~~8]^T$ قرار دارد.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.4]{Images/example-loc.png}
+	\caption{نقشه ورودی داده شده به الگوریتم \lr{Q-learning}}
+\end{figure}
 
+همانطور که مشاهده می‌شود الگوریتم، پس از مدت زمان تقریبی 37 میلی ثانیه، در گام 71ام متوقف شده است.
 
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.4]{Images/example-iter.png}
+	\caption{زمان طول کشیده برای یافتن جواب توسط \lr{Q-learning} و مقدار ماکزیمم تغییر در هر گام}
+\end{figure}
 
+مقدار ماتریس \lr{Q} که به ابعاد تمام حالت‌ها، 100، در تعداد اقدامات، 8، می‌باشد، در شکل \ref{Fig:example_Q} آمده است.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.3]{Images/example-Q.png}
+	\caption{مقدار ماتریس \lr{Q} پس از پایان الگوریتم \lr{Q-learning}}\label{Fig:example_Q}
+\end{figure}
 
+ماتریس \lr{V} مقدار نسبت داده شده به هر حالت را نشان می‌دهد. همانطور که دیده می‌شود حالت‌های مجاور حالت هدف دارای بیشترین مقدار در ماتریس \lr{V} هستند.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.3]{Images/example-v.png}
+	\caption{مقدار ماتریس \lr{V} پس از پایان الگوریتم \lr{Q-learning}}
+\end{figure}
 
+همانطور که دیده می‌شود، حالت‌ها به طور نسبتا بهین همگی سیاستی به سوی نقطه هدف ارائه می‌دهند. هر عدد نماینده المان با همان اندیس در مجموعه اقدامات \ref{eq actions definition} می‌باشد.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.4]{Images/example-pi.png}
+	\caption{‌سیاست‌ نهایی برای هر حالت در پایان الگوریتم \lr{Q-learning}}
+\end{figure}
 
+مسیر پیشنهادی برای رسیدن از نقطه شروع به هدف، در شکل \ref{Fig:example path} آمده است.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.4]{Images/example-path.png}
+	\caption{مسیر پیشنهادی توسط الگوریتم \lr{Q-learning}}\label{Fig:example path}
+\end{figure}
+
+\subsection{مقایسه زمانی الگوریتم \lr{Q-learning} با الگوریتم‌های ابتکاری}
+حال از نظر زمانی، الگوریتم \lr{Q-learning} با الگوریتم‌های ابتکاری مقایسه می‌گردد. همانطور که در شکل \ref{Fig:time Q-learning} دیده می‌شود الگوریتم \lr{Q-learning} زمان بسیار بیشتری نسبت به الگوریتم‌های ابتکاری نیازمند است. در نتیجه برای مسیریابی آنلاین به مشکل خواهیم خورد. برای رفع این مشکل، از مزیت بزرگ الگوریتم \lr{Q-learning} که در صورت جا‌به‌جایی موانع، با به روزرسانی تابع \lr{V} با تعداد گام بسیار کمی سیاست خود را با محیط وفق می‌دهد، استفاده می‌شود. در نتیجه با یک زمان نسبتا کم اولیه اگر به سیاست خوبی برسیم، در ادامه کار می‌توان به صورت بلادرنگ، با آپدیت کردن مقادیر الگوریتم در بازه زمانی کم، اصلاح مسیر را انجام داد. همچنین نباید از این موضوع غافل شویم که الگوریتم \lr{Q-learning} برای تمام حالت‌ها سیاست بهین را فرا می‌گیرد، در نتیجه اگه ربات با حالتی برود که انتظار نداشتیم، باز مشکلی نخواهد بود.
+\begin{figure}[!h]
+	\centering
+	\includegraphics[scale=0.2]{Images/time Q-learning.jpg}
+	\caption{مقایسه زمانی الگوریتم \lr{Q-learning} با الگوریتم‌های ابتکاری}\label{Fig:time Q-learning}
+\end{figure}
 
 
 
